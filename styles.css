@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    background: #fefae0;
+    color: #2b2839;
+    border: 6px solid #dda15e;
+    border-radius: 12px;
+    box-shadow: 10px 10px #bc6c25;
+    animation-name: changingForm;
+    animation-duration: 10s;
+
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */}
+     
+    @keyframes changingForm {
+  from {background-color: #fefae0;}
+  to {background-color: #a2d2ff;}
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
